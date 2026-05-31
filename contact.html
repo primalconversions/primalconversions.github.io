@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Primal Conversions</title>
+<meta name="description" content="Let's talk about your copy needs. Book a consultation with Primal Conversions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="logo">PRIMAL<span class="accent">CONVERSIONS</span></a>
+    <button class="menu-btn" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
+    <div class="nav-links" id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://calendly.com/primal-conversions/cpm" class="nav-cta">Apply to get started</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding-bottom:32px">
+  <div class="wrap">
+    <div class="tag reveal">Contact</div>
+    <h1 class="reveal">Let's talk about your copy needs</h1>
+    <p class="lead reveal" style="margin-top:22px;max-width:56ch">Ready to stop losing sales because of weak copy? Whether you need a complete funnel overhaul or just want to discuss how to improve your conversions, I'm here to help.</p>
+    <p class="lead reveal" style="max-width:56ch">Tell me about your business challenges, and let's explore how strategic copywriting can transform your results.</p>
+  </div>
+</section>
+
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-item reveal">
+        <div class="k">Address</div>
+        <div class="v">Georgia, City Batumi, Tamar Mepe Avenue, N 22a, Floor, 12, Apartment N143</div>
+      </div>
+      <div class="contact-item reveal">
+        <div class="k">Open hours</div>
+        <div class="v">Mon – Fri 9:00am – 5:30 pm (GMT+4)</div>
+      </div>
+      <div class="contact-item reveal">
+        <div class="k">Phone</div>
+        <a class="v" href="tel:+995591935177">(+995) 591 935 177</a>
+      </div>
+      <div class="contact-item reveal">
+        <div class="k">Email</div>
+        <a class="v" href="mailto:hello@primalconversons.com">hello@primalconversons.com</a>
+      </div>
+    </div>
+
+    <div class="reveal" style="margin-top:40px">
+      <h3 style="margin-bottom:8px">Want me to help you write a brief?</h3>
+      <p class="lead" style="margin-bottom:20px">Just book a consultation.</p>
+      <a href="https://calendly.com/primal-conversions/cpm" class="btn btn-primary">Apply to get started</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="logo">PRIMAL<span class="accent">CONVERSIONS</span></div>
+        <p class="tagline">Conversion-obsessed direct-response copy that turns strangers into buyers.</p>
+      </div>
+      <div class="fnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="meta">
+      <span>&copy; 2019–2026 Primal Conversions. All rights reserved.</span>
+      <span>Business ID: 345721258 &nbsp;·&nbsp; <a href="mailto:hello@primalconversons.com">hello@primalconversons.com</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

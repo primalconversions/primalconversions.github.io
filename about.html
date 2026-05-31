@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Primal Conversions</title>
+<meta name="description" content="Conversion-obsessed, not trend-obsessed. Sergey Vasilyev is a direct-response copywriter specializing in funnels that actually convert.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="logo">PRIMAL<span class="accent">CONVERSIONS</span></a>
+    <button class="menu-btn" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
+    <div class="nav-links" id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://calendly.com/primal-conversions/cpm" class="nav-cta">Apply to get started</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding-bottom:40px">
+  <div class="wrap">
+    <div class="tag reveal">About</div>
+    <h1 class="reveal">Conversion-obsessed.<br>Not trend-obsessed.</h1>
+    <p class="lead reveal" style="margin-top:22px">I'm Sergey Vasilyev, a direct-response copywriter specializing in funnels that actually convert.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="two-col">
+      <div class="reveal prose">
+        <p>My business isn't built on trendy marketing jargon or generic templates.</p>
+        <p>It's built on understanding what makes people buy and crafting messages that speak directly to their desires and pain points.</p>
+        <p>Over the last 2 years, I've generated more than $2.5M in revenue for my clients across 15 industries.</p>
+        <p>I've seen what works, what doesn't, and why most marketing fails to convert.</p>
+      </div>
+      <div class="reveal">
+        <div class="ph round">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><path d="M12 12a4 4 0 100-8 4 4 0 000 8zM4 20c0-3.3 3.6-6 8-6s8 2.7 8 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <span>Photo — Sergey</span>
+          <small>Drop your square headshot here</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap prose" style="max-width:760px">
+    <p>My journey started in the trenches.</p>
+    <p>Before becoming a copywriter, I spent years in digital product development and launches, learning firsthand how the right words can transform a struggling business into a thriving one.</p>
+    <p>That experience taught me something crucial: most businesses don't need prettier words — they need strategic messaging that creates a direct path from stranger to customer.</p>
+    <p><strong>I focus on results, not fluff.</strong></p>
+    <p>If you're looking for poetic prose that wins awards but doesn't sell, I'm not your guy.</p>
+    <p>But if you want copy that captures your voice, resonates with your ideal clients, and consistently converts — we should talk.</p>
+    <p>My approach is straightforward: understand your audience, position your offer in the right way, and create messaging that moves people to action.</p>
+    <p>Let's build a funnel that works as hard as you do.</p>
+    <div class="btn-row" style="margin-top:28px">
+      <a href="https://calendly.com/primal-conversions/cpm" class="btn btn-primary">Apply to get started</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="stat-band" style="display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between">
+      <div class="stat reveal"><div class="num">$3M+</div><div class="lbl">Revenue generated for my clients</div></div>
+      <div class="stat reveal"><div class="num">40+</div><div class="lbl">Clients served across 15 industries</div></div>
+      <div class="stat reveal"><div class="num">10+</div><div class="lbl">Years of experience in launches</div></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <div class="tag" style="color:var(--blue)">Let's talk</div>
+      <h2>Ready to stop losing sales to weak copy?</h2>
+      <p>Tell me about your business challenges, and let's explore how strategic copywriting can transform your results.</p>
+      <a href="https://calendly.com/primal-conversions/cpm" class="btn btn-primary" style="background:var(--blue)">Apply to get started</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="logo">PRIMAL<span class="accent">CONVERSIONS</span></div>
+        <p class="tagline">Conversion-obsessed direct-response copy that turns strangers into buyers.</p>
+      </div>
+      <div class="fnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="meta">
+      <span>&copy; 2019–2026 Primal Conversions. All rights reserved.</span>
+      <a href="mailto:hello@primalconversons.com">hello@primalconversons.com</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
