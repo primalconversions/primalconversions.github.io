@@ -84,7 +84,7 @@ h3{font-size:20px;font-weight:600;line-height:1.25}
   width:357px;height:357px;
   object-fit:cover;object-position:top center;
   border-radius:50%;
-  border:3px solid var(--accent);
+  border:3px solid var(--blue);
   box-shadow:0 8px 32px rgba(47,107,255,.15);
   display:block;
 }
@@ -261,7 +261,7 @@ footer .meta a:hover{color:#fff}
   .hero{min-height:unset;padding:36px 0 28px}
   .hero-body{flex-direction:column-reverse;gap:24px;align-items:center}
   .hero-copy{text-align:center}
-  .hero-copy .check{text-align:left;display:inline-flex}
+  .hero-copy .check{text-align:left;width:100%}
   .hero-img{width:220px;height:220px}
   .btn-lg{padding:16px 28px;font-size:16px;width:100%;justify-content:center}
 
@@ -290,4 +290,8 @@ footer .meta a:hover{color:#fff}
   .cta-band{padding:32px 16px}
   .card{padding:22px}
   .stat .num{font-size:32px}
+  .check li{font-size:16px}
+  .tag{font-size:14px;letter-spacing:.8px}
+  .svc{padding:32px 0}
+  .lead{font-size:16px}
 }
