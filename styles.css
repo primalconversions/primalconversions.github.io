@@ -223,7 +223,7 @@ footer .tagline{font-size:14px;color:#9AA0A6;margin-top:10px;max-width:34ch}
 footer .fnav{display:flex;gap:28px;flex-wrap:wrap}
 footer .fnav a{font-size:14px;color:#C8CACE;transition:color .15s}
 footer .fnav a:hover{color:#fff}
-.li-link{display:inline-flex;align-items:center;margin-top:14px;color:#9AA0A6;transition:color .15s}
+.li-link{display:inline-flex;align-items:center;margin-top:22px;color:#9AA0A6;transition:color .15s}
 .li-link:hover{color:#fff}
 footer .finfo{font-size:13px;color:#9AA0A6;line-height:1.65}
 footer .finfo p{margin:0 0 10px}
