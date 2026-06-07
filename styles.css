@@ -193,8 +193,9 @@ h3{font-size:20px;font-weight:600;line-height:1.25}
 /* services list */
 .svc{border-top:1px solid var(--line);padding:48px 0}
 .svc:first-of-type{border-top:0}
-.svc-head{display:flex;align-items:baseline;gap:16px;margin-bottom:18px}
+.svc-head{display:flex;align-items:center;gap:16px;margin-bottom:18px}
 .svc-head .ix{font-size:14px;font-weight:700;color:var(--blue)}
+.svc-icon{width:44px;height:44px;flex-shrink:0}
 .svc p{font-size:16px;color:var(--ink-soft);margin-bottom:14px;max-width:64ch}
 .svc .check li{font-size:15px}
 
